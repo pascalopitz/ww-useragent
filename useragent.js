@@ -437,6 +437,10 @@ var browserData = {
       'familyReplacement': 'IE'
     },
     {
+      'regex': '(Trident\\/7\\.0).+rv\\:(\\d+)\\.(\\d+)',
+      'familyReplacement': 'IE'
+    },
+    {
       'regex': '(Nintendo 3DS).* Version/(\\d+)\\.(\\d+)(?:\\.(\\w+))'
     }
   ],
